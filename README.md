@@ -1,1 +1,3 @@
-# movies-ETL
+# Extract, Transform, Load Pipeline
+
+For this project, we were tasked with creating our own functions to clean the data from csv and json sources.  Cleaning included dropping null values and unnecessary columns, renaming and combining columns, changing data types, using regex to parse the data, joining dataframes, etc.  We repeatedly refactored the code to create one large function.  The function took in the three different cleaned movie data files: Wikipedia data, Kaggle metadata, and the MovieLens rating data.  After completing the ETL process, we added the cleaned data to our PostgreSQL database using SQL ALchemy.
